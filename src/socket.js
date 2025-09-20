@@ -2,7 +2,7 @@
 import { io } from "socket.io-client";
 
 // ⚠️ Asegúrate de usar la URL de tu backend
-const socket = io("http://localhost:4000", {
+const socket = io("http://52.23.197.194/", {
   transports: ["websocket"],
 });
 
