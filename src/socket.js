@@ -2,7 +2,7 @@
 import { io } from "socket.io-client";
 
 // ⚠️ Asegúrate de usar la URL de tu backend
-const socket = io("http://52.23.197.194/", {
+const socket = io("https://trivia-backend-omega.vercel.app/", {
   transports: ["websocket"],
 });
 
